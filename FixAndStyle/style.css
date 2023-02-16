@@ -1,0 +1,39 @@
+main {
+    background-color: skyblue;
+}
+
+footer {
+    background-color: yellow;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: black;
+    background-color: yellow;
+}
+
+h4 {
+    color: yellow;
+    background-color: darkgreen;
+}
+
+h5 {
+    color: red;
+}
+
+#highlight1 {
+    color: orange;
+    font-weight: bold;
+}
+
+#highlight2 {
+    color: darkblue;
+    font-weight: bold;
+}
+
+a {
+    color: green;
+}
