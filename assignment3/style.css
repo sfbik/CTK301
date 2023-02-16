@@ -1,0 +1,40 @@
+h1 {
+    color: white;
+    background-color: black;
+}
+
+main {
+    color: #545454;
+}
+
+header {
+    color: black;
+}
+
+h3, h2 {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: x-large;
+    background-color: antiquewhite;
+}
+
+h4 {
+    text-decoration: underline;
+    font-style: italic;
+    background-color: azure;
+}
+
+nav {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
