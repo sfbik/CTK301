@@ -1,0 +1,52 @@
+body {
+    background-image: url("assets/whitebrick.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top left;
+
+    background-color: white;
+    color: black;
+    font-family: Sans-Serif;
+}
+
+.center {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    text-justify: inter-word;
+}
+
+img {
+    outline: 5px solid black;
+    border: 5px solid yellow;
+}
+
+h1, h2, h3, h4, h5 {
+    color: orange;
+    font-style: italic;
+    font-weight: 100;
+    background-color: black;
+}
+
+main {
+    color: #545454;
+}
+
+header {
+    color: black;
+}
+
+nav {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
