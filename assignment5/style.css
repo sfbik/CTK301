@@ -1,0 +1,88 @@
+body {
+    background-image: url("a5bg.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top left;
+
+    
+}
+
+h1 {
+    font-family: Helvetica;
+    font-weight: 100;
+    display: block;
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-weight: bold;
+    display: block;
+
+    border-bottom: 3px solid black;
+    padding-bottom: 15px;
+}
+
+main {
+    display: block;
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+}
+
+.footer {
+    font-family: Verdana;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+
+
+    display: block;
+    padding: 40px;
+    margin: 20px;
+    color: #ffffff;
+    background-color: darkblue;
+    border: 3px solid white;
+}
+
+.a2 {
+    color: blue;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+nav li:hover {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    width: 150px;
+    color: #ffffff;
+    background-color: blue;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    width: 150px;
+    color: #ffffff;
+    background-color: darkblue;
+}
