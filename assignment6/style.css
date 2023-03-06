@@ -26,8 +26,16 @@
     text-justify: auto;
   }
 
-  a:hover {
+  a {
     color: red;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
   }
   
   header {
