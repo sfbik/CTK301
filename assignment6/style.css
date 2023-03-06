@@ -1,0 +1,100 @@
+#wrapper {
+    width: 960px;
+    border: 4px solid black;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: white;
+  }
+
+  body {
+    background-image: url("a62.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top left;
+
+    text-align: justify;
+  }
+
+  .mainpg1 {
+    font-family: Georgia;
+    font-weight: bold;
+  }
+
+  .mainpg2 {
+    font-family: Georgia;
+    text-justify: auto;
+  }
+
+  a:hover {
+    color: red;
+  }
+  
+  header {
+    grid-column: span 6;
+    font-family: Helvetica;
+    font-weight: 100;
+    color: white;
+    background-color: black;
+    padding-left: 24px;
+    margin: 24px;
+  }
+
+  h2 {
+    font-family: Helvetica;
+    border-bottom: solid 4px black;
+    padding-bottom: 10px;
+  }
+  
+  nav {
+    grid-column: span 1;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    width: 250px;
+  }
+  
+  nav li a {
+    display: block;
+    background-color: red;
+    font-family: Helvetica;
+    padding: 1em;
+    margin: 24px;
+    color: white;
+    text-decoration: none;
+  }
+
+  nav li a:hover {
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    grid-column: span 5;
+    margin-right: 24px;
+  }
+  
+  main img {
+    width: 450px;
+    float: left;
+    border: solid 8px white;
+    outline: solid 4px black;
+    margin-left: 4px;
+    margin-right: 1em;
+  }
+  
+  footer {
+    font-family: Verdana;
+    font-style: italic;
+    background-color: red;
+    color: white;
+    border-top: solid black 4px;
+    grid-column: span 6;
+    text-align: center;
+  }
