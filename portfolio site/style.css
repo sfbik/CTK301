@@ -1,0 +1,118 @@
+#wrapper {
+    margin: 1em auto;
+    width: 800px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px auto 450px;
+
+    padding: 5px;
+    border: 2px solid #ccc;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.main2 {
+    grid-column: span 4;
+    font-family: Georgia;
+    background-color: white;
+    padding: 24px;
+}
+
+.floatimg {
+    border: blue;
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+body {
+    background-image: url("whitebrick.png");
+    background-repeat: repeat; 
+    background-attachment: fixed;
+    background-position: top left;
+}
+
+main {
+    text-align: center;
+    grid-column: span 6;
+    font-family: Georgia;
+    font-weight: bold;
+    background-color: white;
+    padding: 24px;
+}
+main a {
+    color: gray;
+}
+main a:hover {
+    color: skyblue;
+}
+.main2 {
+    grid-column: span 4;
+    font-family: Georgia;
+    background-color: white;
+    padding: 24px;
+}
+
+footer{
+    text-align: center;
+    grid-column: span 6;
+    background-color: white;
+    border-top: 4px solid lightgray;
+    padding: 12px;
+}
+
+nav {
+    grid-column: span 6;
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    background-image: linear-gradient(rgb(149, 165, 185), rgb(255, 255, 255));
+    padding: 0;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+  
+}
+nav li {
+    text-align: center;
+    width: 262px;
+    margin-right: -4px;
+    background-image: linear-gradient(rgb(149, 165, 185), rgb(255, 255, 255));
+    display: inline-block;
+}
+nav li a {
+    
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    color: black;
+    
+}
+nav li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    background-image: url("clouds-moving.gif");
+    background-size: cover;
+    grid-column: span 6;
+    padding: 24px;
+    margin: 0;
+    font-family: Helvetica;
+    font-style: italic;
+    color: black;
+
+    font-family: 'Sedgwick Ave Display';
+}
+h1 a{
+    color: lightskyblue;
+}
+
+p {
+    font-size: small;
+    color: gray;
+}
