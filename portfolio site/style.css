@@ -12,13 +12,6 @@
     border-radius: 10px;
 }
 
-.main2 {
-    grid-column: span 4;
-    font-family: Georgia;
-    background-color: white;
-    padding: 24px;
-}
-
 .floatimg {
     border: blue;
     float: left;
@@ -32,6 +25,8 @@ body {
     background-attachment: fixed;
     background-position: top left;
 }
+
+
 
 main {
     text-align: center;
@@ -47,12 +42,24 @@ main a {
 main a:hover {
     color: skyblue;
 }
-.main2 {
-    grid-column: span 4;
+#main2 {
+    text-align: center;
+    grid-column: span 3;
     font-family: Georgia;
+    font-weight: bold;
     background-color: white;
     padding: 24px;
 }
+#main3 {
+    text-align: center;
+    grid-column: span 3;
+    font-family: Georgia;
+    font-weight: bold;
+    background-color: white;
+    padding: 24px;
+}
+
+
 
 footer{
     text-align: center;
